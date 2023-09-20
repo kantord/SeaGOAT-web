@@ -1,7 +1,10 @@
-import { fireEvent, render, screen } from '@testing-library/react'
-import Home from './page'
+import { fireEvent, render, screen } from '@testing-library/react';
+import Home from './page';
 
-it('App Router: Works with Client Components (React State)', async () => {
-  render(<Home />)
-  expect(await screen.findByText("Hello World")).toBeVisible()
-})
+it('checks the search field functionality', async () => {
+  render(<Home />);
+  const searchInput = screen.getByRole('searchbox');
+  expect(searchInput).toBeInTheDocument();
+  fireEvent.change(searchInput, { target: { value: 'Test search' } });
+  expect(searchInput.value).toBe('Test search');
+});
