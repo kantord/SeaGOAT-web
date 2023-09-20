@@ -1,0 +1,57 @@
+name: CI
+on: [push, pull_request]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: git checkout
+        uses: actions/checkout@v2
+
+      - name: node setup
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+
+      - name: dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: eslint
+        run: yarn lint
+
+  jest-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: git checkout
+        uses: actions/checkout@v2
+
+      - name: node setup
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+
+      - name: dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: jest
+        run: yarn test --ci
+
+  typescript-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: git checkout
+        uses: actions/checkout@v2
+
+      - name: node setup
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+
+      - name: dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: tsc
+        run: npx tsc --noEmit
