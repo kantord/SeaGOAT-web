@@ -6,5 +6,5 @@ it("checks the search field functionality", async () => {
   const searchInput = screen.getByRole("searchbox");
   expect(searchInput).toBeInTheDocument();
   fireEvent.change(searchInput, { target: { value: "Test search" } });
-  expect(searchInput.value).toBe("Test search");
+  expect(searchInput).toHaveValue("Test search");
 });
