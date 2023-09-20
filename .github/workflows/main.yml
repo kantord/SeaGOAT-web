@@ -36,7 +36,7 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: jest
-        run: yarn test --ci
+        run: yarn jest --ci
 
   typescript-check:
     runs-on: ubuntu-latest
