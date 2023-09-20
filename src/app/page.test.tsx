@@ -1,10 +1,10 @@
-import { fireEvent, render, screen } from '@testing-library/react';
-import Home from './page';
+import { fireEvent, render, screen } from "@testing-library/react";
+import Home from "./page";
 
-it('checks the search field functionality', async () => {
+it("checks the search field functionality", async () => {
   render(<Home />);
-  const searchInput = screen.getByRole('searchbox');
+  const searchInput = screen.getByRole("searchbox");
   expect(searchInput).toBeInTheDocument();
-  fireEvent.change(searchInput, { target: { value: 'Test search' } });
-  expect(searchInput.value).toBe('Test search');
+  fireEvent.change(searchInput, { target: { value: "Test search" } });
+  expect(searchInput.value).toBe("Test search");
 });
