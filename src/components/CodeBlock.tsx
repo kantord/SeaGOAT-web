@@ -1,4 +1,6 @@
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { dracula } from 'react-syntax-highlighter/dist/cjs/styles/prism';
+
 
 const languagesMap: Record<string, string> = {
   ".txt": "text",
@@ -34,6 +36,7 @@ export default function CodeBlock({ block, path }) {
 
   return (
     <SyntaxHighlighter
+      style={dracula} 
       language={inferLanguageFromPath(path)}
       showLineNumbers
       wrapLongLines
