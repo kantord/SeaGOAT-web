@@ -12,6 +12,12 @@ it("shows results from SeaGOAT when typing into the search box", async () => {
   expect(searchInput).toHaveValue("create vector embeddings for chunks");
   expect(screen.getByText("CHANGELOG.md")).toBeVisible();
   expect(screen.getByText("seagoat/utils/server.py")).toBeVisible();
+  expect(
+    screen.getByText('help="Disable formatting. Automatically enabled when part of a bash pipeline.",'),
+  ).toBeVisible();
+  expect(
+    screen.getByText('or create a pull request to fix a problem.'),
+  ).toBeVisible();
 });
 
 it("does not display any results before the user searches for them", async () => {

@@ -21,15 +21,27 @@ export default function Home() {
       />
 
       <div className="w-full flex flex-col">
-        {resultTexts.map(({ path }) => (
-          <article
-            className="card w-full bg-base-100 shadow-xl mb-4"
-            key={path}
-          >
-            <div className="card-body">
-              <h2 className="card-title">{path}</h2>
-              <p>asdf</p>
-            </div>
+        {resultTexts.map(({ path, blocks }) => (
+          <article     
+            className = "card w-full bg-base-100 shadow-xl mb-4"
+        key={path}
+          >    
+          
+  <div className="card-body">
+                <h2 className="card-title">{path}</h2>
+              <pre>
+          <code>{"    for directory in directories_to_delete:"}</code>
+</pre>
+
+
+    {blocks.map(({ lines })=> (
+lines.map(({lineText}) => (
+         <pre>
+          <code>{lineText}</code>
+</pre>
+))
+    ))}
+      </div>
           </article>
         ))}
       </div>
