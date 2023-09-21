@@ -2,8 +2,8 @@
 
 import * as React from "react";
 import * as resultsExample from "../mocks/fixtures/embeddings.json";
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
-import { dark } from "react-syntax-highlighter/dist/esm/styles/prism";
+import CodeBlock from "../components/CodeBlock";
+// import { default } from "react-syntax-highlighter/cjs/styles/prism/material-dark"
 
 export default function Home() {
   const [queryText, setQueryText] = React.useState<string>("");
@@ -30,13 +30,13 @@ export default function Home() {
           >
             <div className="card-body">
               <h2 className="card-title">{path}</h2>
-              {blocks.map(({ lines }) =>
-                lines.map(({ lineText }) => (
-                  <SyntaxHighlighter language="javascript" style={dark} key="lineText">
-                    {lineText}
-                  </SyntaxHighlighter>
-                )),
-              )}
+              {blocks.map((block) => (
+                <CodeBlock
+                  path={path}
+                  block={block}
+                  key={block.lines[0].line}
+                />
+              ))}
             </div>
           </article>
         ))}
