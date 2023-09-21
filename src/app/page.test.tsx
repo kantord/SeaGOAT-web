@@ -13,10 +13,12 @@ it("shows results from SeaGOAT when typing into the search box", async () => {
   expect(screen.getByText("CHANGELOG.md")).toBeVisible();
   expect(screen.getByText("seagoat/utils/server.py")).toBeVisible();
   expect(
-    screen.getByText('help="Disable formatting. Automatically enabled when part of a bash pipeline.",'),
+    screen.getByText(
+      'help="Disable formatting. Automatically enabled when part of a bash pipeline.",',
+    ),
   ).toBeVisible();
   expect(
-    screen.getByText('or create a pull request to fix a problem.'),
+    screen.getByText("or create a pull request to fix a problem."),
   ).toBeVisible();
 });
 

@@ -2,6 +2,8 @@
 
 import * as React from "react";
 import * as resultsExample from "../mocks/fixtures/embeddings.json";
+import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import { dark } from "react-syntax-highlighter/dist/esm/styles/prism";
 
 export default function Home() {
   const [queryText, setQueryText] = React.useState<string>("");
@@ -22,26 +24,24 @@ export default function Home() {
 
       <div className="w-full flex flex-col">
         {resultTexts.map(({ path, blocks }) => (
-          <article     
-            className = "card w-full bg-base-100 shadow-xl mb-4"
-        key={path}
-          >    
-          
-  <div className="card-body">
-                <h2 className="card-title">{path}</h2>
+          <article
+            className="card w-full bg-base-100 shadow-xl mb-4"
+            key={path}
+          >
+            <div className="card-body">
+              <h2 className="card-title">{path}</h2>
               <pre>
-          <code>{"    for directory in directories_to_delete:"}</code>
-</pre>
+                <code>{"    for directory in directories_to_delete:"}</code>
+              </pre>
 
-
-    {blocks.map(({ lines })=> (
-lines.map(({lineText}) => (
-         <pre>
-          <code>{lineText}</code>
-</pre>
-))
-    ))}
-      </div>
+              {blocks.map(({ lines }) =>
+                lines.map(({ lineText }) => (
+                  <SyntaxHighlighter language="javascript" style={dark} key="lineText">
+                    {lineText}
+                  </SyntaxHighlighter>
+                )),
+              )}
+            </div>
           </article>
         ))}
       </div>
