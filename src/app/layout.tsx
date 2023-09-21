@@ -6,7 +6,7 @@ const firaCode = Fira_Code({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "SeagGOAT-web",
-  description: "SeaGOAT-web is a web-based interface for SeaGOAT", 
+  description: "SeaGOAT-web is a web-based interface for SeaGOAT",
 };
 
 export default function RootLayout({

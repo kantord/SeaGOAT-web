@@ -1,17 +1,12 @@
 "use client";
 
 import * as React from "react";
+import * as resultsExample from "../mocks/fixtures/embeddings.json";
 
 export default function Home() {
   const [queryText, setQueryText] = React.useState<string>("");
   const resultTexts =
-    queryText.length > 0
-      ? [
-          "is is a foobar result",
-          "is is not a foobar result",
-          "is is another foobar result",
-        ]
-      : [];
+    queryText.length > 0 ? resultsExample.default.results : [];
 
   return (
     <main className="flex flex-col min-h-screen p-24 items-center">
@@ -26,14 +21,14 @@ export default function Home() {
       />
 
       <div className="w-full flex flex-col">
-        {resultTexts.map((text: string) => (
+        {resultTexts.map(({ path }) => (
           <article
             className="card w-full bg-base-100 shadow-xl mb-4"
-            key={text}
+            key={path}
           >
             <div className="card-body">
-              <h2 className="card-title">Card title!</h2>
-              <p>{text}</p>
+              <h2 className="card-title">{path}</h2>
+              <p>asdf</p>
             </div>
           </article>
         ))}

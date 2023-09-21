@@ -1,0 +1,1537 @@
+{
+  "results": [
+    {
+      "path": "CHANGELOG.md",
+      "fullPath": "/home/kantord/repos/SeaGOAT/CHANGELOG.md",
+      "score": 1.1379,
+      "blocks": [
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 11,
+              "lineText": "* added support for alternative C++ extension (cc)",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 15,
+              "lineText": "* .cxx for C++ also ([`8ebd516`](https://github.com/kantord/SeaGOAT/commit/8ebd516b456d6655c7ba07b575bfdb19e919c5a5))",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 32,
+              "lineText": "* docs: fix URL for Bat (#221) ([`55c3ab3`](https://github.com/kantord/SeaGOAT/commit/55c3ab3bb3f2130e4b213656cc27b906dd31279d))",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 34,
+              "lineText": "* docs: add notice about me looking for a job",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 45,
+              "lineText": "after this malformed commit message:",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 82,
+              "lineText": "* feat: include isRunning for server-info ([`023ea85`](https://github.com/kantord/SeaGOAT/commit/023ea85ca4f7c40b5c27fb609b45a3612e2e661f))",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 104,
+              "lineText": "* refactor: use a single file for all server info ([`76471bb`](https://github.com/kantord/SeaGOAT/commit/76471bb9f22245868e27c9d48bda5c0ff34677eb))",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 113,
+              "lineText": "* feat: include score for result lines ([`868d01f`](https://github.com/kantord/SeaGOAT/commit/868d01fa7f25b01255beeb1207f77327e152f632))",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 160,
+              "lineText": "* ci: run more tests for Mac OS ([`b3f8406`](https://github.com/kantord/SeaGOAT/commit/b3f84065210dd844536c2a843e96d6616d480b51))",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 199,
+              "lineText": "* docs: use a slideshow for the demo gif ([`0e8c510`](https://github.com/kantord/SeaGOAT/commit/0e8c5107e098c676915b153305ef8bc91e772cb3))",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.4214,
+              "line": 652,
+              "lineText": "",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.3628,
+              "line": 659,
+              "lineText": "* fix(deps): update dependency click to v8.1.7 ([`e8f0de1`](https://github.com/kantord/SeaGOAT/commit/e8f0de146bfb33314318e1e38416e5254dccb77b))",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.4214,
+              "line": 665,
+              "lineText": "",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.3628,
+              "line": 699,
+              "lineText": "* chore(deps): update python-semantic-release/python-semantic-release action to v8.0.5 ([`ccd05f9`](https://github.com/kantord/SeaGOAT/commit/ccd05f9495ed72892fb7fbb0b7239b92fcdbc04b))",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.4214,
+              "line": 705,
+              "lineText": "* feat: reduce bias/noise in result sorting ([`557ae30`](https://github.com/kantord/SeaGOAT/commit/557ae309c85fe7b627aabc108e83ee96680ef182))",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.3628,
+              "line": 779,
+              "lineText": "### Feature",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.3329,
+              "line": 1172,
+              "lineText": "it's needed because pkg_resources is used ([`efc23a3`](https://github.com/kantord/SeaGOAT/commit/efc23a3cd58cfd1d1555fd24a597c17c33036166))",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.1379,
+              "line": 1174,
+              "lineText": "* chore: don't markdownlint CHANGELOG.md ([`005fe21`](https://github.com/kantord/SeaGOAT/commit/005fe21d1b1bab7b2e43ddb1e9c148d224df1136))",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.3329,
+              "line": 1185,
+              "lineText": "",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.1379,
+              "line": 1187,
+              "lineText": "",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.3329,
+              "line": 1225,
+              "lineText": "* chore: add some basic dependencies ([`680ce4a`](https://github.com/kantord/SeaGOAT/commit/680ce4a3ec56e7ea29423b0cfa88234187dc1b2a))",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.1379,
+              "line": 1227,
+              "lineText": "* chore: set up basic test framework ([`107fb7f`](https://github.com/kantord/SeaGOAT/commit/107fb7f351a15664a24b60b7ee02e8944f05162c))",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.3329,
+              "line": 1305,
+              "lineText": "* feat: do not create chunks for lines with little content ([`63bd3c8`](https://github.com/kantord/SeaGOAT/commit/63bd3c8a4044dea0730c2bfb9330662ef91aafdf))",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.1379,
+              "line": 1307,
+              "lineText": "* feat: cache vector embeddings ([`8626f93`](https://github.com/kantord/SeaGOAT/commit/8626f938aa134e96d54cc4a2de89ae3e011db0e3))",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "tests/conftest.py",
+      "fullPath": "/home/kantord/repos/SeaGOAT/tests/conftest.py",
+      "score": 1.2,
+      "blocks": [
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 32,
+              "lineText": "from seagoat.server import create_app",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 67,
+              "lineText": "                        + \"HTML is for markup, but it's complicated. Markdown is simpler.\"",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 75,
+              "lineText": "                    \"Initial commit for Markdown file\",",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 90,
+              "lineText": "                    \"Initial commit for Python file\",",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 98,
+              "lineText": "                \"commit_messages\": [\"Initial commit for another Python file\"],",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 113,
+              "lineText": "                    \"Initial commit for JavaScript file\",",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 120,
+              "lineText": "        for file_change in file_changes:",
+              "resultTypes": [
+                "result"
+              ]
+            },
+            {
+              "score": 1.2,
+              "line": 121,
+              "lineText": "            for i in range(len(file_change[\"contents\"])):",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 2
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 169,
+              "lineText": "    for directory in directories_to_delete:",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 175,
+              "lineText": "    for repo in repos_to_delete:",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "seagoat/server.py",
+      "fullPath": "/home/kantord/repos/SeaGOAT/seagoat/server.py",
+      "score": 1.2,
+      "blocks": [
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 21,
+              "lineText": "from seagoat.utils.wait import wait_for",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 24,
+              "lineText": "def create_app(repo_path):",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 30,
+              "lineText": "        repo_path=repo_path, minimum_chunks_to_analyze=0",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 85,
+              "lineText": "    app = create_app(repo_path)",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 115,
+              "lineText": "    wait_for(lambda: get_server_info(repo_path), timeout=60)",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 126,
+              "lineText": "    This server analyzes your codebase and creates vector embeddings for it.",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 130,
+              "lineText": "    logging.basicConfig(level=logging.INFO, format=\"%(asctime)s %(message)s\")",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 162,
+              "lineText": "@click.option(\"--json\", \"use_json_format\", is_flag=True, help=\"Output status as JSON.\")",
+              "resultTypes": [
+                "result"
+              ]
+            },
+            {
+              "score": 1.2,
+              "line": 163,
+              "lineText": "def status(repo_path, use_json_format):",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 2
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 167,
+              "lineText": "    if use_json_format:",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "README.md",
+      "fullPath": "/home/kantord/repos/SeaGOAT/README.md",
+      "score": 1.2,
+      "blocks": [
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 10,
+              "lineText": "A code search engine for the AI age. SeaGOAT is a local search tool that",
+              "resultTypes": [
+                "result"
+              ]
+            },
+            {
+              "score": 1.2,
+              "line": 11,
+              "lineText": "leverages vector embeddings to enable to search your codebase semantically.",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 2
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 17,
+              "lineText": "*Note: I was recently laid off my job and I am looking for new",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 36,
+              "lineText": "used as part of a pipeline, a grep-line output format is used. When color is",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 70,
+              "lineText": "`gt` or `seagoat` command to query your repository. For example:",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 78,
+              "lineText": "in your queries, for example",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 131,
+              "lineText": "environment. For example to test the development version of the",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 145,
+              "lineText": "or create a pull request to fix a problem.",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 153,
+              "lineText": "Instead of relying on APIs or \"connecting to ChatGPT\", it uses the vector",
+              "resultTypes": [
+                "result"
+              ]
+            },
+            {
+              "score": 1.2,
+              "line": 154,
+              "lineText": "database called ChromaDB, with a local vector embedding engine and",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 2
+          }
+        }
+      ]
+    },
+    {
+      "path": "tests/test_server.py",
+      "fullPath": "/home/kantord/repos/SeaGOAT/tests/test_server.py",
+      "score": 1.2,
+      "blocks": [
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 19,
+              "lineText": "from seagoat.utils.wait import wait_for",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 27,
+              "lineText": "    for result in deep_copy_of_data[\"results\"]:",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 67,
+              "lineText": "    assert data[\"stats\"][\"chunks\"][\"analyzed\"] &gt; 0",
+              "resultTypes": [
+                "result"
+              ]
+            },
+            {
+              "score": 1.2,
+              "line": 68,
+              "lineText": "    assert data[\"stats\"][\"chunks\"][\"unanalyzed\"] == 0",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 2
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 85,
+              "lineText": "    assert data[\"stats\"][\"chunks\"][\"analyzed\"] &gt; 0",
+              "resultTypes": [
+                "result"
+              ]
+            },
+            {
+              "score": 1.2,
+              "line": 86,
+              "lineText": "    assert data[\"stats\"][\"chunks\"][\"unanalyzed\"] &gt; 0",
+              "resultTypes": [
+                "result"
+              ]
+            },
+            {
+              "score": 1.2,
+              "line": 87,
+              "lineText": "    assert data[\"stats\"][\"queue\"][\"size\"] &gt;= data[\"stats\"][\"chunks\"][\"unanalyzed\"]",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 3
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 277,
+              "lineText": "        wait_for(lambda: is_server_running(repo.working_dir), 8)",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 304,
+              "lineText": "    for server in servers_data[\"servers\"].values():",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "seagoat/cli.py",
+      "fullPath": "/home/kantord/repos/SeaGOAT/seagoat/cli.py",
+      "score": 1.2,
+      "blocks": [
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 64,
+              "lineText": "    response.raise_for_status()",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 74,
+              "lineText": "    help=\"Disable formatting. Automatically enabled when part of a bash pipeline.\",",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 88,
+              "lineText": "    help=\"Include this many lines of context before each result\",",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 102,
+              "lineText": "    help=\"Include this many lines of context after and before each result\",",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 109,
+              "lineText": "    Query your codebase for your QUERY in the Git repository REPO_PATH.",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 111,
+              "lineText": "    or a description of what you are looking for.",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 117,
+              "lineText": "    that will analyze your codebase. Check seagoat-server --help for more details.",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 155,
+              "lineText": "    # pylint: disable-next=no-value-for-parameter",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "tests/test_cli.py",
+      "fullPath": "/home/kantord/repos/SeaGOAT/tests/test_cli.py",
+      "score": 1.2,
+      "blocks": [
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 88,
+              "lineText": "                                \"lineText\": \"        for filename, lines in results_template:\",",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 93,
+              "lineText": "                                \"lineText\": \"            for i, line_text in enumerate(lines):\",",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 103,
+              "lineText": "                                \"lineText\": \"        for filename, lines in fake_files.items():\",",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 123,
+              "lineText": "                                \"lineText\": \"                    [line for _, line in lines_sorted_by_line_number]\",",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 133,
+              "lineText": "                                \"lineText\": \"        for filename, lines in results_template:\",",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 164,
+              "lineText": "                                \"lineText\": \"        for result in results:\",",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 184,
+              "lineText": "                                \"lineText\": '            \"results\": [result.to_json(query) for result in results],',",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 286,
+              "lineText": "            \"chunks\": {\"analyzed\": 100, \"unanalyzed\": 0},",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 311,
+              "lineText": "def test_forwards_limit_clue_to_server(max_length, get_request_args_from_cli_call):",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 421,
+              "lineText": "    assert \"Query your codebase for your QUERY\" in result.output",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "seagoat/queue/task_queue.py",
+      "fullPath": "/home/kantord/repos/SeaGOAT/seagoat/queue/task_queue.py",
+      "score": 1.2,
+      "blocks": [
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 12,
+              "lineText": "def calculate_accuracy(chunks_analyzed: int, total_chunks: int) -&gt; int:",
+              "resultTypes": [
+                "result"
+              ]
+            },
+            {
+              "score": 1.2,
+              "line": 13,
+              "lineText": "    if total_chunks == 0 or total_chunks - chunks_analyzed == 0:",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 2
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 16,
+              "lineText": "    progress = chunks_analyzed / total_chunks",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 49,
+              "lineText": "        logging.info(\"Checking repository for new changes\")",
+              "resultTypes": [
+                "result"
+              ]
+            },
+            {
+              "score": 1.2,
+              "line": 50,
+              "lineText": "        remaining_chunks_to_analyze = context[\"seagoat_engine\"].analyze_codebase(",
+              "resultTypes": [
+                "result"
+              ]
+            },
+            {
+              "score": 1.2,
+              "line": 51,
+              "lineText": "            self.kwargs[\"minimum_chunks_to_analyze\"]",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 3
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 54,
+              "lineText": "        logging.info(\"Analyzed the minimum number of chunks needed to operate. \")",
+              "resultTypes": [
+                "result"
+              ]
+            },
+            {
+              "score": 1.2,
+              "line": 55,
+              "lineText": "        if remaining_chunks_to_analyze:",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 2
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 57,
+              "lineText": "                \"Note, %s chunks need to be analyzed for optimum performance.\",",
+              "resultTypes": [
+                "result"
+              ]
+            },
+            {
+              "score": 1.2,
+              "line": 58,
+              "lineText": "                len(remaining_chunks_to_analyze),",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 2
+          }
+        }
+      ]
+    },
+    {
+      "path": "seagoat/result.py",
+      "fullPath": "/home/kantord/repos/SeaGOAT/seagoat/result.py",
+      "score": 1.2,
+      "blocks": [
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 23,
+              "lineText": "    vector_distance: float",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 36,
+              "lineText": "        return self.vector_distance / (1 + self._get_number_of_exact_matches(query))",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 46,
+              "lineText": "            \"resultTypes\": list(sorted(set(str(t) for t in self.types))),",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 57,
+              "lineText": "        for line in self.lines:",
+              "resultTypes": [
+                "result"
+              ]
+            },
+            {
+              "score": 1.2,
+              "line": 58,
+              "lineText": "            for type_ in line.types:",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 2
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 65,
+              "lineText": "            \"lines\": [line.to_json(query) for line in self.lines],",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 87,
+              "lineText": "    def add_line(self, line: int, vector_distance: float) -&gt; None:",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 89,
+              "lineText": "        if line in self.lines and self.lines[line].vector_distance &lt; vector_distance:",
+              "resultTypes": [
+                "result"
+              ]
+            },
+            {
+              "score": 1.2,
+              "line": 90,
+              "lineText": "            vector_distance = self.lines[line].vector_distance",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 2
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 99,
+              "lineText": "            vector_distance,",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        }
+      ]
+    },
+    {
+      "path": "seagoat/utils/server.py",
+      "fullPath": "/home/kantord/repos/SeaGOAT/seagoat/utils/server.py",
+      "score": 1.2,
+      "blocks": [
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 32,
+              "lineText": "    for key in list(contents.keys()):",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 54,
+              "lineText": "        raise ServerDoesNotExist(f\"Server for {repo_path} does not exist.\")",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        },
+        {
+          "lines": [
+            {
+              "score": 1.2,
+              "line": 62,
+              "lineText": "        raise ServerDoesNotExist(f\"Server for {repo_path} does not exist.\")",
+              "resultTypes": [
+                "result"
+              ]
+            }
+          ],
+          "lineTypeCount": {
+            "result": 1
+          }
+        }
+      ]
+    }
+  ],
+  "version": "0.29.0"
+}
