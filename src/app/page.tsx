@@ -30,10 +30,6 @@ export default function Home() {
           >
             <div className="card-body">
               <h2 className="card-title">{path}</h2>
-              <pre>
-                <code>{"    for directory in directories_to_delete:"}</code>
-              </pre>
-
               {blocks.map(({ lines }) =>
                 lines.map(({ lineText }) => (
                   <SyntaxHighlighter language="javascript" style={dark} key="lineText">
