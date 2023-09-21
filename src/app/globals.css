@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.react-syntax-highlighter-line-number {
+  min-width: 80px !important;
+  max-width: 80px !important;
+  text-align: right !important;
+}
