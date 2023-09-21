@@ -36,7 +36,9 @@ export default function CodeBlock({ block, path }) {
 
   return (
     <SyntaxHighlighter
-      style={dracula} 
+      style={{
+        ...dracula,
+      }} 
       language={inferLanguageFromPath(path)}
       showLineNumbers
       wrapLongLines

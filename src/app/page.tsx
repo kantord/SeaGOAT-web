@@ -2,8 +2,7 @@
 
 import * as React from "react";
 import * as resultsExample from "../mocks/fixtures/embeddings.json";
-import CodeBlock from "../components/CodeBlock";
-// import { default } from "react-syntax-highlighter/cjs/styles/prism/material-dark"
+import CodeBlockSet from "../components/CodeBlockSet";
 
 export default function Home() {
   const [queryText, setQueryText] = React.useState<string>("");
@@ -30,13 +29,7 @@ export default function Home() {
           >
             <div className="card-body">
               <h2 className="card-title">{path}</h2>
-              {blocks.map((block) => (
-                <CodeBlock
-                  path={path}
-                  block={block}
-                  key={block.lines[0].line}
-                />
-              ))}
+              <CodeBlockSet blocks={blocks} path={path} />
             </div>
           </article>
         ))}
