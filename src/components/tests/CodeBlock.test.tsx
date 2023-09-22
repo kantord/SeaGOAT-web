@@ -1,11 +1,11 @@
 import React from "react";
 import { render } from "@testing-library/react";
 import CodeBlock from "../CodeBlock";
-import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
+import SyntaxHighlighter from "react-syntax-highlighter";
 
-jest.mock("react-syntax-highlighter", () => ({
-  Prism: jest.fn(({ children }) => <div>{children}</div>),
-}));
+jest.mock("react-syntax-highlighter", () =>
+  jest.fn(({ children }) => <div>{children}</div>),
+);
 
 const mockBlock = {
   lines: [{ lineText: 'console.log("Hello, World!");' }],
