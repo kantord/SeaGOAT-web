@@ -1,7 +1,10 @@
 import React from "react";
 import { render } from "@testing-library/react";
 import CodeBlock from "../CodeBlock";
-import SyntaxHighlighter from "react-syntax-highlighter";
+import OriginalSyntaxHighlighter from "react-syntax-highlighter";
+
+const SyntaxHighlighter = OriginalSyntaxHighlighter as unknown as jest.Mock &
+  typeof OriginalSyntaxHighlighter;
 
 jest.mock("react-syntax-highlighter", () =>
   jest.fn(({ children }) => <div>{children}</div>),
@@ -33,7 +36,7 @@ describe("<CodeBlock />", () => {
         }),
         expect.anything(),
       );
-      SyntaxHighlighter.mockClear();
+      // SyntaxHighlighter.mockClear();
     });
   });
 });
