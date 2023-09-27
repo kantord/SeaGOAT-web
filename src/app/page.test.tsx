@@ -1,4 +1,4 @@
-import { fireEvent, render, screen } from "@testing-library/react";
+import { fireEvent, getByText, render, screen } from "@testing-library/react";
 import Home from "./page";
 
 it("shows results from SeaGOAT when typing into the search box", async () => {
@@ -7,16 +7,31 @@ it("shows results from SeaGOAT when typing into the search box", async () => {
   expect(searchInput).toBeInTheDocument();
 
   fireEvent.change(searchInput, {
-    target: { value: "where do we handle foobar" },
+    target: { value: "create vector embeddings for chunks" },
   });
-  expect(searchInput).toHaveValue("where do we handle foobar");
+  expect(searchInput).toHaveValue("create vector embeddings for chunks");
 
-  const resultsWithFoobar = screen.getAllByText(/foobar/i);
+  // file names are visible
+  expect(screen.getByText("CHANGELOG.md")).toBeVisible();
+  expect(screen.getByText("seagoat/utils/server.py")).toBeVisible();
+  expect(
+    screen.getByText(
+      "environment. For example to test the development version of the",
+    ),
+  ).toBeVisible();
 
-  resultsWithFoobar.forEach((article) => {
-    expect(article.closest("article")).toBeVisible();
-  });
-  expect(resultsWithFoobar.length).toBeGreaterThan(0);
+  // code lines are visible
+  expect(
+    screen.getByText("after this malformed commit message:"),
+  ).toBeVisible();
+
+  expect(
+    screen.getByText("after this malformed commit message:"),
+  ).toBeVisible();
+
+  // line numbers are visible
+  expect(screen.getByText("62")).toBeVisible();
+  expect(screen.getByText("89")).toBeVisible();
 });
 
 it("does not display any results before the user searches for them", async () => {
